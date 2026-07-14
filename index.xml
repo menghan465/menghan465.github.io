@@ -1,25 +1,370 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fierceman's Blog</title><link>https://menghan465.github.io/</link><description>Recent content on Fierceman's Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 14 Jul 2026 15:20:36 +0800</lastBuildDate><atom:link href="https://menghan465.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何提高游戏世界观的真实性和可靠性——基于地理、政体特征与现实开放数据的幻想世界区域文化生成</title><link>https://menghan465.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C%E8%A7%82%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7%E5%92%8C%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%9F%BA%E4%BA%8E%E5%9C%B0%E7%90%86%E6%94%BF%E4%BD%93%E7%89%B9%E5%BE%81%E4%B8%8E%E7%8E%B0%E5%AE%9E%E5%BC%80%E6%94%BE%E6%95%B0%E6%8D%AE%E7%9A%84%E5%B9%BB%E6%83%B3%E4%B8%96%E7%95%8C%E5%8C%BA%E5%9F%9F%E6%96%87%E5%8C%96%E7%94%9F%E6%88%90/</link><pubDate>Tue, 14 Jul 2026 15:20:36 +0800</pubDate><guid>https://menghan465.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C%E8%A7%82%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7%E5%92%8C%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%9F%BA%E4%BA%8E%E5%9C%B0%E7%90%86%E6%94%BF%E4%BD%93%E7%89%B9%E5%BE%81%E4%B8%8E%E7%8E%B0%E5%AE%9E%E5%BC%80%E6%94%BE%E6%95%B0%E6%8D%AE%E7%9A%84%E5%B9%BB%E6%83%B3%E4%B8%96%E7%95%8C%E5%8C%BA%E5%9F%9F%E6%96%87%E5%8C%96%E7%94%9F%E6%88%90/</guid><description>&lt;h2 id="总判断">总判断&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Fierceman's Blog</title><link>https://menghan465.github.io/</link><description>Recent content on Fierceman's Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 14 Jul 2026 15:20:36 +0800</lastBuildDate><atom:link href="https://menghan465.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何提高游戏世界观的真实性和可靠性——基于地理、政体特征与现实开放数据的幻想世界区域文化生成</title><link>https://menghan465.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C%E8%A7%82%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7%E5%92%8C%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%9F%BA%E4%BA%8E%E5%9C%B0%E7%90%86%E6%94%BF%E4%BD%93%E7%89%B9%E5%BE%81%E4%B8%8E%E7%8E%B0%E5%AE%9E%E5%BC%80%E6%94%BE%E6%95%B0%E6%8D%AE%E7%9A%84%E5%B9%BB%E6%83%B3%E4%B8%96%E7%95%8C%E5%8C%BA%E5%9F%9F%E6%96%87%E5%8C%96%E7%94%9F%E6%88%90/</link><pubDate>Tue, 14 Jul 2026 15:20:36 +0800</pubDate><guid>https://menghan465.github.io/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E6%B8%B8%E6%88%8F%E4%B8%96%E7%95%8C%E8%A7%82%E7%9A%84%E7%9C%9F%E5%AE%9E%E6%80%A7%E5%92%8C%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%9F%BA%E4%BA%8E%E5%9C%B0%E7%90%86%E6%94%BF%E4%BD%93%E7%89%B9%E5%BE%81%E4%B8%8E%E7%8E%B0%E5%AE%9E%E5%BC%80%E6%94%BE%E6%95%B0%E6%8D%AE%E7%9A%84%E5%B9%BB%E6%83%B3%E4%B8%96%E7%95%8C%E5%8C%BA%E5%9F%9F%E6%96%87%E5%8C%96%E7%94%9F%E6%88%90/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
 &lt;blockquote>
 &lt;p>&lt;strong>为了解决研发的游戏Abyssalvage的世界观设计，即海洋废土世界观在淹没前和淹没后的人文差异，并为游戏内打捞内容提供足够的人文因素以及遗迹残留的特点，设计出可以生成世界观人文特点的工具是必要的&lt;/strong>&lt;/p>&lt;/blockquote>
 &lt;hr>
-&lt;h2 id="篇-1时代错配--别用部落志给-2096-年的地图写文明">篇 1：时代错配 — 别用部落志给 2096 年的地图写文明&lt;/h2>
-&lt;h3 id="适合发表">适合发表&lt;/h3>
-&lt;p>✅ 工程实践 / 游戏工具 / LLM 应用&lt;/p>
-&lt;h3 id="问题">问题&lt;/h3>
-&lt;p>Azgaar Fantasy Map Generator 支持年历，但常用的 D-PLACE / Ethnographic Atlas 收录的主要是小规模社会（焦点年偏 19–20 世纪）。直接用它当 prior 会让近未来国家的文化叙事退化成「游牧/渔猎/村社」。&lt;/p>
-&lt;h3 id="做法">做法&lt;/h3>
+&lt;p>我在做海洋废土 RPG《Abyssalvage》时用 Azgaar 生成了地图。地图分为安提梅尔纪元和珀斯梅尔纪元，这两个纪元分别表示在世界被水淹没之前和被水淹没之后。&lt;/p>
+&lt;p>然后我发现 D-PLACE / Ethnographic Atlas 收录的主要是 19–20 世纪记录的&lt;strong>小规模社会&lt;/strong>：游牧、渔猎、刀耕火种。拿它当 prior 往地图上一套——全变成部落。而安提梅尔纪元的科技水平绝对不会这么低下。&lt;/p>
+&lt;p>于是我尝试读取地图的年份，根据&lt;code>exports.year → 分五档：古代 / 近古 / 过渡 / 现代 / 近未来&lt;/code>&lt;/p>
 &lt;ul>
-&lt;li>读取 &lt;code>options.year&lt;/code>，分 5 个 era bucket（ancient → near_future）。&lt;/li>
-&lt;li>近现代 / 近未来 → Natural Earth + WorldClim + World Bank WDI 参考单元。&lt;/li>
-&lt;li>古代 → premodern 功能原型（帝国/城邦/封建/航海等合成类型）。&lt;/li>
-&lt;li>D-PLACE 降为可选项，不再是默认。&lt;/li>
-&lt;li>统计截面钳定（year=2096 → WDI 截面 ~2020）。&lt;/li>
+&lt;li>
+&lt;p>年份≥1950：直接用 &lt;strong>世界银行 WDI&lt;/strong>（GDP 人均、城市化、产业结构）+ WorldClim 气候栅格 + Natural Earth 岸线&lt;strong>做参考单元&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>年份&amp;lt;1950：换 premodern 功能原型（帝国/城邦/游牧邦联/封建），不再用部落志当默认&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>年份是 2650 但 WDI 数据只到 2020 → 钳定截面 + 轻量近未来偏移（城市感 + 媒体浮一点） ，即依然走的是**&lt;code>near_future&lt;/code> 路径**&lt;/p>
+&lt;/li>
 &lt;/ul>
-&lt;h3 id="局限">局限&lt;/h3>
-&lt;ul>
-&lt;li>WDI 是国家截面，不是区域网格；代理字段存在（如电力）。&lt;/li>
-&lt;li>premodern 是&lt;strong>合成&lt;/strong>功能型，不是真实 Seshat 编码。&lt;/li>
-&lt;li>宗教只有 Pew 宏标签（粗分类），不到教派级。&lt;/li>
-&lt;/ul>
-&lt;h3 id="技术关键词">技术关键词&lt;/h3>
-&lt;p>era routing, bucket-aware prior, D-PLACE, WDI, data proxy&lt;/p></description></item><item><title>My First Post</title><link>https://menghan465.github.io/posts/my-first-post/</link><pubDate>Tue, 14 Jul 2026 07:36:53 +0800</pubDate><guid>https://menghan465.github.io/posts/my-first-post/</guid><description/></item></channel></rss>
+&lt;p>但这显然是错的，虽然没有新的数据集（没有 2650 年的世界银行 WDI），但可以做一个&lt;strong>分层未来修正&lt;/strong>：&lt;/p>
+&lt;div class="goat svg-container ">
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+font-family="Menlo,Lucida Console,monospace"
+viewBox="0 0 648 249"
+>
+&lt;g transform='translate(8,16)'>
+&lt;path d='M 160,112 L 168,96' fill='none' stroke='currentColor'>&lt;/path>
+&lt;text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='0' y='68' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='0' y='180' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='8' y='68' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='8' y='180' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='16' y='180' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='24' y='180' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>W&lt;/text>
+&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='32' y='84' fill='currentColor' style='font-size:1em'>W&lt;/text>
+&lt;text text-anchor='middle' x='32' y='100' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='132' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='148' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='180' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='32' y='196' fill='currentColor' style='font-size:1em'>不&lt;/text>
+&lt;text text-anchor='middle' x='32' y='212' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='32' y='228' fill='currentColor' style='font-size:1em'>→&lt;/text>
+&lt;text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>D&lt;/text>
+&lt;text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='40' y='84' fill='currentColor' style='font-size:1em'>D&lt;/text>
+&lt;text text-anchor='middle' x='40' y='180' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='40' y='196' fill='currentColor' style='font-size:1em'>再&lt;/text>
+&lt;text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>I&lt;/text>
+&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>管&lt;/text>
+&lt;text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>I&lt;/text>
+&lt;text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'>产&lt;/text>
+&lt;text text-anchor='middle' x='48' y='132' fill='currentColor' style='font-size:1em'>政&lt;/text>
+&lt;text text-anchor='middle' x='48' y='148' fill='currentColor' style='font-size:1em'>海&lt;/text>
+&lt;text text-anchor='middle' x='48' y='180' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='48' y='196' fill='currentColor' style='font-size:1em'>用&lt;/text>
+&lt;text text-anchor='middle' x='48' y='212' fill='currentColor' style='font-size:1em'>纯&lt;/text>
+&lt;text text-anchor='middle' x='48' y='228' fill='currentColor' style='font-size:1em'>类&lt;/text>
+&lt;text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>线&lt;/text>
+&lt;text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'>业&lt;/text>
+&lt;text text-anchor='middle' x='56' y='132' fill='currentColor' style='font-size:1em'>体&lt;/text>
+&lt;text text-anchor='middle' x='56' y='148' fill='currentColor' style='font-size:1em'>洋&lt;/text>
+&lt;text text-anchor='middle' x='56' y='180' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='56' y='212' fill='currentColor' style='font-size:1em'>合&lt;/text>
+&lt;text text-anchor='middle' x='56' y='228' fill='currentColor' style='font-size:1em'>似&lt;/text>
+&lt;text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>的&lt;/text>
+&lt;text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='64' y='116' fill='currentColor' style='font-size:1em'>从&lt;/text>
+&lt;text text-anchor='middle' x='64' y='132' fill='currentColor' style='font-size:1em'>从&lt;/text>
+&lt;text text-anchor='middle' x='64' y='148' fill='currentColor' style='font-size:1em'>废&lt;/text>
+&lt;text text-anchor='middle' x='64' y='180' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='64' y='196' fill='currentColor' style='font-size:1em'>W&lt;/text>
+&lt;text text-anchor='middle' x='64' y='212' fill='currentColor' style='font-size:1em'>成&lt;/text>
+&lt;text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>当&lt;/text>
+&lt;text text-anchor='middle' x='72' y='68' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='72' y='148' fill='currentColor' style='font-size:1em'>土&lt;/text>
+&lt;text text-anchor='middle' x='72' y='180' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='72' y='196' fill='currentColor' style='font-size:1em'>D&lt;/text>
+&lt;text text-anchor='middle' x='72' y='212' fill='currentColor' style='font-size:1em'>原&lt;/text>
+&lt;text text-anchor='middle' x='72' y='228' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>前&lt;/text>
+&lt;text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='80' y='132' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='80' y='148' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='80' y='180' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='80' y='196' fill='currentColor' style='font-size:1em'>I&lt;/text>
+&lt;text text-anchor='middle' x='80' y='212' fill='currentColor' style='font-size:1em'>型&lt;/text>
+&lt;text text-anchor='middle' x='80' y='228' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>行&lt;/text>
+&lt;text text-anchor='middle' x='88' y='68' fill='currentColor' style='font-size:1em'>(&lt;/text>
+&lt;text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='88' y='132' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='88' y='148' fill='currentColor' style='font-size:1em'>淹&lt;/text>
+&lt;text text-anchor='middle' x='88' y='228' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>(&lt;/text>
+&lt;text text-anchor='middle' x='96' y='36' fill='currentColor' style='font-size:1em'>为&lt;/text>
+&lt;text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>z&lt;/text>
+&lt;text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='96' y='132' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='96' y='148' fill='currentColor' style='font-size:1em'>没&lt;/text>
+&lt;text text-anchor='middle' x='96' y='212' fill='currentColor' style='font-size:1em'>+&lt;/text>
+&lt;text text-anchor='middle' x='96' y='228' fill='currentColor' style='font-size:1em'>m&lt;/text>
+&lt;text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'>钳&lt;/text>
+&lt;text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>，&lt;/text>
+&lt;text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>1&lt;/text>
+&lt;text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'>钳&lt;/text>
+&lt;text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='104' y='132' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='104' y='148' fill='currentColor' style='font-size:1em'>设&lt;/text>
+&lt;text text-anchor='middle' x='104' y='180' fill='currentColor' style='font-size:1em'>&amp;gt;&lt;/text>
+&lt;text text-anchor='middle' x='104' y='228' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>定&lt;/text>
+&lt;text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>不&lt;/text>
+&lt;text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>定&lt;/text>
+&lt;text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='112' y='132' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='112' y='148' fill='currentColor' style='font-size:1em'>定&lt;/text>
+&lt;text text-anchor='middle' x='112' y='180' fill='currentColor' style='font-size:1em'>3&lt;/text>
+&lt;text text-anchor='middle' x='112' y='212' fill='currentColor' style='font-size:1em'>g&lt;/text>
+&lt;text text-anchor='middle' x='112' y='228' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>变&lt;/text>
+&lt;text text-anchor='middle' x='120' y='68' fill='currentColor' style='font-size:1em'>1&lt;/text>
+&lt;text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='120' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='120' y='132' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='120' y='148' fill='currentColor' style='font-size:1em'>可&lt;/text>
+&lt;text text-anchor='middle' x='120' y='180' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='120' y='212' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='120' y='228' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>6&lt;/text>
+&lt;text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>+&lt;/text>
+&lt;text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'>–&lt;/text>
+&lt;text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>+&lt;/text>
+&lt;text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='128' y='132' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='128' y='148' fill='currentColor' style='font-size:1em'>以&lt;/text>
+&lt;text text-anchor='middle' x='128' y='180' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='128' y='212' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='128' y='228' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>–&lt;/text>
+&lt;text text-anchor='middle' x='136' y='68' fill='currentColor' style='font-size:1em'>3&lt;/text>
+&lt;text text-anchor='middle' x='136' y='100' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='136' y='132' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='136' y='148' fill='currentColor' style='font-size:1em'>在&lt;/text>
+&lt;text text-anchor='middle' x='136' y='180' fill='currentColor' style='font-size:1em'>)&lt;/text>
+&lt;text text-anchor='middle' x='136' y='228' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>2&lt;/text>
+&lt;text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='144' y='68' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>更&lt;/text>
+&lt;text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='144' y='132' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'>这&lt;/text>
+&lt;text text-anchor='middle' x='144' y='180' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='144' y='212' fill='currentColor' style='font-size:1em'>约&lt;/text>
+&lt;text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>1&lt;/text>
+&lt;text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='152' y='68' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='152' y='84' fill='currentColor' style='font-size:1em'>强&lt;/text>
+&lt;text text-anchor='middle' x='152' y='100' fill='currentColor' style='font-size:1em'>再&lt;/text>
+&lt;text text-anchor='middle' x='152' y='116' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='152' y='132' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='152' y='148' fill='currentColor' style='font-size:1em'>里&lt;/text>
+&lt;text text-anchor='middle' x='152' y='212' fill='currentColor' style='font-size:1em'>束&lt;/text>
+&lt;text text-anchor='middle' x='152' y='228' fill='currentColor' style='font-size:1em'>用&lt;/text>
+&lt;text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='160' y='68' fill='currentColor' style='font-size:1em'>)&lt;/text>
+&lt;text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>的&lt;/text>
+&lt;text text-anchor='middle' x='160' y='132' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='160' y='228' fill='currentColor' style='font-size:1em'>的&lt;/text>
+&lt;text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>)&lt;/text>
+&lt;text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='168' y='68' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='168' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='168' y='132' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='168' y='148' fill='currentColor' style='font-size:1em'>h&lt;/text>
+&lt;text text-anchor='middle' x='168' y='228' fill='currentColor' style='font-size:1em'>是&lt;/text>
+&lt;text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>:&lt;/text>
+&lt;text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>0&lt;/text>
+&lt;text text-anchor='middle' x='176' y='116' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='176' y='148' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='176' y='228' fill='currentColor' style='font-size:1em'>功&lt;/text>
+&lt;text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='184' y='84' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='184' y='100' fill='currentColor' style='font-size:1em'>.&lt;/text>
+&lt;text text-anchor='middle' x='184' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='184' y='132' fill='currentColor' style='font-size:1em'>倾&lt;/text>
+&lt;text text-anchor='middle' x='184' y='148' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='184' y='228' fill='currentColor' style='font-size:1em'>能&lt;/text>
+&lt;text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'>1&lt;/text>
+&lt;text text-anchor='middle' x='192' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='192' y='132' fill='currentColor' style='font-size:1em'>向&lt;/text>
+&lt;text text-anchor='middle' x='192' y='148' fill='currentColor' style='font-size:1em'>k&lt;/text>
+&lt;text text-anchor='middle' x='192' y='228' fill='currentColor' style='font-size:1em'>原&lt;/text>
+&lt;text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='200' y='132' fill='currentColor' style='font-size:1em'>碎&lt;/text>
+&lt;text text-anchor='middle' x='200' y='228' fill='currentColor' style='font-size:1em'>型&lt;/text>
+&lt;text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='208' y='84' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='208' y='132' fill='currentColor' style='font-size:1em'>片&lt;/text>
+&lt;text text-anchor='middle' x='208' y='148' fill='currentColor' style='font-size:1em'>一&lt;/text>
+&lt;text text-anchor='middle' x='208' y='228' fill='currentColor' style='font-size:1em'>，&lt;/text>
+&lt;text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='216' y='84' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='216' y='116' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='216' y='132' fill='currentColor' style='font-size:1em'>化&lt;/text>
+&lt;text text-anchor='middle' x='216' y='148' fill='currentColor' style='font-size:1em'>个&lt;/text>
+&lt;text text-anchor='middle' x='216' y='228' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='224' y='20' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='224' y='116' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='224' y='132' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='224' y='148' fill='currentColor' style='font-size:1em'>可&lt;/text>
+&lt;text text-anchor='middle' x='224' y='228' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='232' y='84' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='232' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='232' y='132' fill='currentColor' style='font-size:1em'>城&lt;/text>
+&lt;text text-anchor='middle' x='232' y='148' fill='currentColor' style='font-size:1em'>选&lt;/text>
+&lt;text text-anchor='middle' x='232' y='228' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='240' y='20' fill='currentColor' style='font-size:1em'>b&lt;/text>
+&lt;text text-anchor='middle' x='240' y='84' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='240' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='240' y='132' fill='currentColor' style='font-size:1em'>邦&lt;/text>
+&lt;text text-anchor='middle' x='240' y='148' fill='currentColor' style='font-size:1em'>修&lt;/text>
+&lt;text text-anchor='middle' x='240' y='228' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='248' y='20' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='248' y='84' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='248' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='248' y='132' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='248' y='148' fill='currentColor' style='font-size:1em'>正&lt;/text>
+&lt;text text-anchor='middle' x='248' y='228' fill='currentColor' style='font-size:1em'>_&lt;/text>
+&lt;text text-anchor='middle' x='256' y='20' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='256' y='84' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='256' y='132' fill='currentColor' style='font-size:1em'>公&lt;/text>
+&lt;text text-anchor='middle' x='256' y='148' fill='currentColor' style='font-size:1em'>层&lt;/text>
+&lt;text text-anchor='middle' x='256' y='228' fill='currentColor' style='font-size:1em'>f&lt;/text>
+&lt;text text-anchor='middle' x='264' y='20' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='264' y='132' fill='currentColor' style='font-size:1em'>司&lt;/text>
+&lt;text text-anchor='middle' x='264' y='228' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'>（&lt;/text>
+&lt;text text-anchor='middle' x='272' y='116' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='272' y='132' fill='currentColor' style='font-size:1em'>实&lt;/text>
+&lt;text text-anchor='middle' x='272' y='228' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='280' y='20' fill='currentColor' style='font-size:1em'>城&lt;/text>
+&lt;text text-anchor='middle' x='280' y='132' fill='currentColor' style='font-size:1em'>体&lt;/text>
+&lt;text text-anchor='middle' x='280' y='228' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='288' y='20' fill='currentColor' style='font-size:1em'>市&lt;/text>
+&lt;text text-anchor='middle' x='288' y='116' fill='currentColor' style='font-size:1em'>更&lt;/text>
+&lt;text text-anchor='middle' x='288' y='228' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='296' y='20' fill='currentColor' style='font-size:1em'>感&lt;/text>
+&lt;text text-anchor='middle' x='296' y='116' fill='currentColor' style='font-size:1em'>多&lt;/text>
+&lt;text text-anchor='middle' x='296' y='228' fill='currentColor' style='font-size:1em'>e&lt;/text>
+&lt;text text-anchor='middle' x='304' y='20' fill='currentColor' style='font-size:1em'>+&lt;/text>
+&lt;text text-anchor='middle' x='304' y='116' fill='currentColor' style='font-size:1em'>倾&lt;/text>
+&lt;text text-anchor='middle' x='312' y='20' fill='currentColor' style='font-size:1em'>3&lt;/text>
+&lt;text text-anchor='middle' x='312' y='116' fill='currentColor' style='font-size:1em'>向&lt;/text>
+&lt;text text-anchor='middle' x='312' y='228' fill='currentColor' style='font-size:1em'>也&lt;/text>
+&lt;text text-anchor='middle' x='320' y='20' fill='currentColor' style='font-size:1em'>%&lt;/text>
+&lt;text text-anchor='middle' x='320' y='116' fill='currentColor' style='font-size:1em'>到&lt;/text>
+&lt;text text-anchor='middle' x='320' y='228' fill='currentColor' style='font-size:1em'>可&lt;/text>
+&lt;text text-anchor='middle' x='328' y='20' fill='currentColor' style='font-size:1em'>、&lt;/text>
+&lt;text text-anchor='middle' x='328' y='228' fill='currentColor' style='font-size:1em'>以&lt;/text>
+&lt;text text-anchor='middle' x='336' y='20' fill='currentColor' style='font-size:1em'>媒&lt;/text>
+&lt;text text-anchor='middle' x='336' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='336' y='228' fill='currentColor' style='font-size:1em'>是&lt;/text>
+&lt;text text-anchor='middle' x='344' y='20' fill='currentColor' style='font-size:1em'>体&lt;/text>
+&lt;text text-anchor='middle' x='344' y='116' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='344' y='228' fill='currentColor' style='font-size:1em'>一&lt;/text>
+&lt;text text-anchor='middle' x='352' y='20' fill='currentColor' style='font-size:1em'>感&lt;/text>
+&lt;text text-anchor='middle' x='352' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='352' y='228' fill='currentColor' style='font-size:1em'>组&lt;/text>
+&lt;text text-anchor='middle' x='360' y='20' fill='currentColor' style='font-size:1em'>+&lt;/text>
+&lt;text text-anchor='middle' x='360' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='360' y='228' fill='currentColor' style='font-size:1em'>「&lt;/text>
+&lt;text text-anchor='middle' x='368' y='20' fill='currentColor' style='font-size:1em'>4&lt;/text>
+&lt;text text-anchor='middle' x='368' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='368' y='228' fill='currentColor' style='font-size:1em'>后&lt;/text>
+&lt;text text-anchor='middle' x='376' y='20' fill='currentColor' style='font-size:1em'>%&lt;/text>
+&lt;text text-anchor='middle' x='376' y='116' fill='currentColor' style='font-size:1em'>n&lt;/text>
+&lt;text text-anchor='middle' x='376' y='228' fill='currentColor' style='font-size:1em'>人&lt;/text>
+&lt;text text-anchor='middle' x='384' y='20' fill='currentColor' style='font-size:1em'>）&lt;/text>
+&lt;text text-anchor='middle' x='384' y='116' fill='currentColor' style='font-size:1em'>d&lt;/text>
+&lt;text text-anchor='middle' x='384' y='228' fill='currentColor' style='font-size:1em'>类&lt;/text>
+&lt;text text-anchor='middle' x='392' y='116' fill='currentColor' style='font-size:1em'>u&lt;/text>
+&lt;text text-anchor='middle' x='392' y='228' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='400' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='400' y='228' fill='currentColor' style='font-size:1em'>后&lt;/text>
+&lt;text text-anchor='middle' x='408' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='408' y='228' fill='currentColor' style='font-size:1em'>国&lt;/text>
+&lt;text text-anchor='middle' x='416' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='416' y='228' fill='currentColor' style='font-size:1em'>家&lt;/text>
+&lt;text text-anchor='middle' x='424' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='424' y='228' fill='currentColor' style='font-size:1em'>」&lt;/text>
+&lt;text text-anchor='middle' x='432' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='432' y='228' fill='currentColor' style='font-size:1em'>原&lt;/text>
+&lt;text text-anchor='middle' x='440' y='116' fill='currentColor' style='font-size:1em'>l&lt;/text>
+&lt;text text-anchor='middle' x='440' y='228' fill='currentColor' style='font-size:1em'>型&lt;/text>
+&lt;text text-anchor='middle' x='456' y='116' fill='currentColor' style='font-size:1em'>/&lt;/text>
+&lt;text text-anchor='middle' x='472' y='116' fill='currentColor' style='font-size:1em'>"&lt;/text>
+&lt;text text-anchor='middle' x='480' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='488' y='116' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='496' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='504' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='512' y='116' fill='currentColor' style='font-size:1em'>-&lt;/text>
+&lt;text text-anchor='middle' x='520' y='116' fill='currentColor' style='font-size:1em'>s&lt;/text>
+&lt;text text-anchor='middle' x='528' y='116' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='536' y='116' fill='currentColor' style='font-size:1em'>a&lt;/text>
+&lt;text text-anchor='middle' x='544' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='552' y='116' fill='currentColor' style='font-size:1em'>c&lt;/text>
+&lt;text text-anchor='middle' x='560' y='116' fill='currentColor' style='font-size:1em'>i&lt;/text>
+&lt;text text-anchor='middle' x='568' y='116' fill='currentColor' style='font-size:1em'>t&lt;/text>
+&lt;text text-anchor='middle' x='576' y='116' fill='currentColor' style='font-size:1em'>y&lt;/text>
+&lt;text text-anchor='middle' x='592' y='116' fill='currentColor' style='font-size:1em'>p&lt;/text>
+&lt;text text-anchor='middle' x='600' y='116' fill='currentColor' style='font-size:1em'>r&lt;/text>
+&lt;text text-anchor='middle' x='608' y='116' fill='currentColor' style='font-size:1em'>o&lt;/text>
+&lt;text text-anchor='middle' x='616' y='116' fill='currentColor' style='font-size:1em'>x&lt;/text>
+&lt;text text-anchor='middle' x='624' y='116' fill='currentColor' style='font-size:1em'>y&lt;/text>
+&lt;text text-anchor='middle' x='632' y='116' fill='currentColor' style='font-size:1em'>"&lt;/text>
+&lt;/g>
+&lt;/svg>
+&lt;/div></description></item><item><title>My First Post</title><link>https://menghan465.github.io/posts/my-first-post/</link><pubDate>Tue, 14 Jul 2026 07:36:53 +0800</pubDate><guid>https://menghan465.github.io/posts/my-first-post/</guid><description/></item></channel></rss>
