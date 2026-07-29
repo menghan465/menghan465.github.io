@@ -1,0 +1,78 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Godot 混合 2D/3D 架构</title>
+  <desc id="desc">2D 玩法层向 3D 视觉层传递车道位置与速度，3D 世界通过 SubViewport 渲染到 TextureRect，Camera3D 再把世界坐标投影回 2D 屏幕用于目标绘制与碰撞。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b18"/>
+      <stop offset="1" stop-color="#173126"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#d7e894"/>
+    </marker>
+    <style>
+      .title{font:700 30px system-ui,"Microsoft YaHei",sans-serif;fill:#f2f6df}
+      .box-title{font:700 23px system-ui,"Microsoft YaHei",sans-serif;fill:#f2f6df}
+      .text{font:17px system-ui,"Microsoft YaHei",sans-serif;fill:#dce8d3}
+      .mono{font:16px ui-monospace,"Cascadia Mono",monospace;fill:#d7e894}
+      .small{font:14px system-ui,"Microsoft YaHei",sans-serif;fill:#afc4ae}
+      .arrow-label{font:15px system-ui,"Microsoft YaHei",sans-serif;fill:#d7e894}
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="28" fill="url(#bg)"/>
+  <text x="60" y="65" class="title">《黑猩猩与电车问题》的混合 2D / 3D 架构</text>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="115" width="320" height="455" rx="22" fill="#204631" stroke="#527f39" stroke-width="3"/>
+    <text x="85" y="160" class="box-title">2D 玩法层</text>
+    <text x="85" y="205" class="mono">main.gd · Node2D</text>
+    <text x="85" y="250" class="text">• 游戏状态与两分钟回合</text>
+    <text x="85" y="286" class="text">• 三轨换道与目标生成</text>
+    <text x="85" y="322" class="text">• 猩猩 Sprite 与击飞特效</text>
+    <text x="85" y="358" class="text">• HUD、商店、计分与存档</text>
+    <text x="85" y="394" class="text">• 屏幕空间命中判定</text>
+    <rect x="85" y="440" width="260" height="86" rx="14" fill="#17352a"/>
+    <text x="105" y="473" class="small">保留既有规则，不把目标改成</text>
+    <text x="105" y="499" class="small">RigidBody3D / Area3D。</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="440" y="115" width="320" height="455" rx="22" fill="#263f31" stroke="#6e9255" stroke-width="3"/>
+    <text x="470" y="160" class="box-title">坐标桥接层</text>
+    <text x="470" y="205" class="mono">lane + progress</text>
+    <text x="470" y="239" class="mono">↓</text>
+    <text x="470" y="273" class="mono">Vector3(x, y, z)</text>
+    <text x="470" y="307" class="mono">↓</text>
+    <text x="470" y="341" class="mono">Camera3D.unproject_position()</text>
+    <text x="470" y="375" class="mono">↓</text>
+    <text x="470" y="409" class="mono">Vector2(screen_x, screen_y)</text>
+    <rect x="470" y="440" width="260" height="86" rx="14" fill="#1b3026"/>
+    <text x="490" y="473" class="small">同一投影结果同时服务于</text>
+    <text x="490" y="499" class="small">2D 绘制与近似碰撞。</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="825" y="115" width="320" height="455" rx="22" fill="#204631" stroke="#527f39" stroke-width="3"/>
+    <text x="855" y="160" class="box-title">3D 视觉层</text>
+    <text x="855" y="205" class="mono">TrainSystemVisual3D</text>
+    <text x="855" y="250" class="text">• SubViewport / TrainWorld</text>
+    <text x="855" y="286" class="text">• Camera3D 与 Environment</text>
+    <text x="855" y="322" class="text">• FBX 机车与 45 段轨道</text>
+    <text x="855" y="358" class="text">• 循环移动的沿线装饰</text>
+    <text x="855" y="394" class="text">• ViewportTexture → TextureRect</text>
+    <rect x="855" y="440" width="260" height="86" rx="14" fill="#17352a"/>
+    <text x="875" y="473" class="small">加载失败时隐藏 3D 画面，</text>
+    <text x="875" y="499" class="small">回退到程序化 2D 绘制。</text>
+  </g>
+
+  <path d="M375 230 C405 230,410 230,440 230" fill="none" stroke="#d7e894" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="382" y="210" class="arrow-label">目标进度</text>
+  <path d="M760 335 C790 335,795 335,825 335" fill="none" stroke="#d7e894" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="766" y="315" class="arrow-label">3D 点</text>
+  <path d="M825 535 C780 625,425 625,375 535" fill="none" stroke="#8fc46e" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="505" y="638" class="arrow-label">屏幕坐标回到 2D 绘制与碰撞</text>
+  <path d="M375 145 C525 85,685 85,825 145" fill="none" stroke="#8fc46e" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="514" y="105" class="arrow-label">normalized_lane_position + speed</text>
+</svg>
