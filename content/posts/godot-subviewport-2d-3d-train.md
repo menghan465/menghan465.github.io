@@ -31,8 +31,6 @@ hidden = false
 
 这不是 3D 物理系统，也不是自定义渲染管线。它是一种面向 Game Jam 开发的范围控制：尽量保留已经能工作的规则层，只替换视觉层。
 
-![《黑猩猩与电车问题》的开场界面](/images/chimp-trolley/intro.png)
-
 ## 为什么不把整个游戏改成 3D
 
 当时已经存在的 2D 系统包括：
@@ -63,8 +61,6 @@ hidden = false
 最终我选择了第三种。
 
 ## 整体架构：规则层和视觉层分开
-
-![Godot 混合 2D/3D 架构图](/images/chimp-trolley/architecture.svg)
 
 项目中的职责大致分成三层。
 
@@ -258,8 +254,6 @@ screen_position = display_offset
 目标虽然是 2D，但机车已经变成 3D。最直接的问题是：**什么时候算撞到车头？**
 
 如果直接使用整辆机车在屏幕上的外接矩形，目标在接近车身中部时就可能提前触发。我的处理方式是只取机车前端的一个 3D 薄片，将它的四个角投影到屏幕。
-
-![从 3D 机车前端生成 2D 碰撞框](/images/chimp-trolley/projection-collision.svg)
 
 核心过程如下：
 
@@ -479,7 +473,6 @@ viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 - `scripts/main.gd`：2D 规则、投影调用、碰撞、商店与回退绘制；
 - `scripts/train_system_visual_3d.gd`：`SubViewport`、3D 世界、轨道循环和投影函数；
 - `shaders/train_surface_3d.gdshader`：机车、轨道和装饰物的三色风格化材质。
-
 
 
 
