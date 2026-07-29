@@ -8,7 +8,6 @@ categories = ['游戏开发']
 slug = 'godot-subviewport-2d-3d-train'
 
 [cover]
-image = '/images/chimp-trolley/gameplay.png'
 alt = '《黑猩猩与电车问题》的三轨跑酷画面'
 caption = '《黑猩猩与电车问题》游戏画面'
 relative = false
