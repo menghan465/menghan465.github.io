@@ -1,0 +1,59 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">从机车前端投影生成屏幕空间碰撞框</title>
+  <desc id="desc">将机车前端的四个三维角点投影到屏幕，取最小和最大坐标生成 Rect2，并用目标的屏幕中心点执行 has_point 命中检测。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12231d"/>
+      <stop offset="1" stop-color="#0b1714"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#d7e894"/>
+    </marker>
+    <style>
+      .title{font:700 30px system-ui,"Microsoft YaHei",sans-serif;fill:#f2f6df}
+      .text{font:18px system-ui,"Microsoft YaHei",sans-serif;fill:#dce8d3}
+      .small{font:15px system-ui,"Microsoft YaHei",sans-serif;fill:#a9bea9}
+      .mono{font:17px ui-monospace,"Cascadia Mono",monospace;fill:#d7e894}
+      .point{font:700 16px ui-monospace,"Cascadia Mono",monospace;fill:#f2f6df}
+    </style>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <text x="55" y="65" class="title">机车仍在 3D 世界，命中判定发生在 2D 屏幕</text>
+
+  <g transform="translate(55,105)">
+    <rect width="710" height="525" rx="20" fill="#173126" stroke="#527f39" stroke-width="3"/>
+    <path d="M290 30 L55 500 M420 30 L655 500 M355 30 L355 500" stroke="#557a52" stroke-width="5" fill="none" opacity=".78"/>
+    <path d="M267 75 L443 75 M240 130 L470 130 M205 200 L505 200 M165 285 L545 285 M110 395 L600 395" stroke="#416542" stroke-width="4" fill="none" opacity=".72"/>
+
+    <path d="M255 355 L455 355 L505 477 L205 477 Z" fill="#204631" stroke="#d7e894" stroke-width="4"/>
+    <path d="M275 375 L435 375 L461 435 L249 435 Z" fill="#0e1c19"/>
+    <rect x="225" y="446" width="260" height="22" rx="6" fill="#c39a45"/>
+
+    <rect x="188" y="330" width="334" height="174" rx="8" fill="#d7e894" fill-opacity=".12" stroke="#d7e894" stroke-width="3" stroke-dasharray="10 8"/>
+    <circle cx="205" cy="355" r="7" fill="#f2f6df"/><text x="164" y="347" class="point">P0</text>
+    <circle cx="505" cy="355" r="7" fill="#f2f6df"/><text x="519" y="347" class="point">P1</text>
+    <circle cx="205" cy="477" r="7" fill="#f2f6df"/><text x="164" y="498" class="point">P2</text>
+    <circle cx="505" cy="477" r="7" fill="#f2f6df"/><text x="519" y="498" class="point">P3</text>
+
+    <circle cx="475" cy="405" r="23" fill="#d7e894" stroke="#f2f6df" stroke-width="4"/>
+    <text x="510" y="412" class="text">目标屏幕中心</text>
+    <path d="M504 405 L565 405" stroke="#d7e894" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="225" y="320" class="small">投影角点的轴对齐包围盒（再额外 grow）</text>
+  </g>
+
+  <g transform="translate(815,135)">
+    <rect width="330" height="420" rx="20" fill="#204631" stroke="#527f39" stroke-width="3"/>
+    <text x="28" y="50" class="text">判定过程</text>
+    <text x="28" y="98" class="mono">screen[i] =</text>
+    <text x="28" y="128" class="mono">  camera.unproject_position(Pi)</text>
+    <text x="28" y="183" class="mono">min = min(screen)</text>
+    <text x="28" y="216" class="mono">max = max(screen)</text>
+    <text x="28" y="271" class="mono">hit_rect = Rect2(min,</text>
+    <text x="28" y="301" class="mono">  max - min).grow(12)</text>
+    <text x="28" y="356" class="mono">hit_rect.has_point(</text>
+    <text x="28" y="386" class="mono">  target_screen_pos)</text>
+  </g>
+
+  <text x="817" y="595" class="small">优点：规则简单、易调试、与 2D Sprite 一致。</text>
+  <text x="817" y="623" class="small">代价：它是近似命中框，不是 3D 物理碰撞。</text>
+</svg>
