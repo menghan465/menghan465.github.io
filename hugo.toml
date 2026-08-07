@@ -2,3 +2,9 @@ baseURL = 'https://menghan465.github.io/'
 locale = 'en-us'
 title = "Fierceman's Blog"
 theme = 'PaperMod'
+
+[[menu.main]]
+identifier = 'portfolio'
+name = 'Portfolio'
+url = 'https://menghan465.github.io/portfolio/'
+weight = 10
