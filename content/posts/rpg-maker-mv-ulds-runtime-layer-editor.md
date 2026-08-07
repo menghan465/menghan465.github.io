@@ -9,7 +9,7 @@ slug = 'rpg-maker-mv-ulds-runtime-layer-editor'
 
 +++
 
-![image-20260807184624284](..\..\public\images\rpg-maker-mv-ulds-runtime-layer-editor\image-20260807184624284.png)
+![ULDS Editor 可视化图层编辑界面](/images/rpg-maker-mv-ulds-runtime-layer-editor/image-20260807184624284.png)
 
 RPG Maker MV 的地图编辑器适合处理图块、事件和基础地图数据，但当地图中出现大量独立图片图层时，单靠参数和 JSON 很难继续维护。
 
