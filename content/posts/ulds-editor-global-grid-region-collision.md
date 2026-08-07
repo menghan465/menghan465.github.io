@@ -7,7 +7,7 @@ tags = ['RPG Maker MV', 'JavaScript', 'PIXI.js', 'NW.js', 'YEP', '碰撞系统',
 categories = ['游戏开发', '工具开发']
 slug = 'ulds-editor-global-grid-region-collision'
 
-------
++++
 
 ![ULDS Editor 可视化图层编辑界面](/images/ulds-editor-global-grid-region-collision/8c59160b387191a77b9dc90bc0e3bf53.png)
 
